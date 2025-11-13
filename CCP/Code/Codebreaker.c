@@ -47,7 +47,7 @@ int main(){
             z=0;
                 for(i=0;i<3;i++){
                         if(num[i]==randomNum1[i]){
-                            printf( " #");
+                            printf( " # ");
                             z++;
                             if(z==3)
                                 break;
@@ -80,7 +80,7 @@ int main(){
             z=0;
                 for(i=0;i<4;i++){
                         if(num[i]==randomNum2[i]){
-                            printf( " #");
+                            printf( " # ");
                             z++;
                             if(z==4)
                                 break;
@@ -113,7 +113,7 @@ int main(){
             z=0;
                 for(i=0;i<5;i++){
                         if(num[i]==randomNum3[i]){
-                            printf( " #");
+                            printf( " # ");
                             z++;
                             if(z==5)
                                 break;
@@ -284,5 +284,6 @@ int main(){
     default:printf("Wrong option");
 }
     return 0;
+
 
 }
