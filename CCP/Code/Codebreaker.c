@@ -19,6 +19,11 @@ int main(){
 
         printf("\nChoose difficulty Level:\n1. Easy\n2. Medium\n3. Hard\n");
         scanf("%d", &level);
+
+		if(level!=1&&level!=2&&level!=3){
+            printf("\nInvalid Option.");
+            return 0;
+        }
         
         int randomNum1[3];
             for(i=0;i<3;i++){
@@ -287,3 +292,4 @@ int main(){
 
 
 }
+
